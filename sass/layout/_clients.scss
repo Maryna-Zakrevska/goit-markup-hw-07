@@ -1,0 +1,40 @@
+.section--clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.title__section--clients {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: $text-color-main;
+  margin-bottom: 50px;
+}
+
+.clients {
+  display: flex;
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: #afb1b8;
+    justify-content: center;
+    align-items: center;
+
+    transition-property: fill, border-color;
+    transition-duration: $transition-duration;
+    transition-timing-function: $timing-function;
+    &:hover,
+    &:focus {
+      fill: $background-color-accent;
+      border-color: $background-color-accent;
+    }
+  }
+}

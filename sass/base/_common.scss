@@ -1,0 +1,48 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.logo,
+.navigation-block__link,
+.contacts-header__link,
+.footer-contacts__link,
+.gallery__link {
+  text-decoration: none;
+}
+
+.navigation-block__list,
+.contacts-header,
+.features,
+.work,
+.team,
+.clients,
+.social-list,
+.footer-contacts__list,
+.filters,
+.gallery {
+  list-style: none;
+}
