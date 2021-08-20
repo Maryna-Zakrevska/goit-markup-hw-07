@@ -24,25 +24,13 @@ ul {
 
 img {
   display: block;
+  height: auto;
 }
 
-.logo,
-.navigation-block__link,
-.contacts-header__link,
-.footer-contacts__link,
-.gallery__link {
+.link {
   text-decoration: none;
 }
 
-.navigation-block__list,
-.contacts-header,
-.features,
-.work,
-.team,
-.clients,
-.social-list,
-.footer-contacts__list,
-.filters,
-.gallery {
+.list {
   list-style: none;
 }
